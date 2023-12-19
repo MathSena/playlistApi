@@ -3,10 +3,12 @@ package com.mathsena.playlistapi;
 import com.mathsena.playlistapi.models.Playlist;
 import com.mathsena.playlistapi.repository.PlaylistRepository;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 import reactor.core.publisher.Flux;
 
 import java.util.UUID;
 
+@Component
 public class DummyData implements CommandLineRunner {
 
     private final PlaylistRepository playlistRepository;
