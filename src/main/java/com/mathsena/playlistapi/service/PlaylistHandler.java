@@ -11,10 +11,10 @@ import reactor.core.publisher.Mono;
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 
-@Component
+
 public class PlaylistHandler {
 
-    @Autowired
+
     PlaylistService playlistService;
 
     public Mono<ServerResponse> findAll(ServerRequest request) {
