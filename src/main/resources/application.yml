@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://mathsena:test@playlistapi.qieckfa.mongodb.net/playlistApi?retryWrites=true&w=majority
